@@ -1,0 +1,40 @@
+.yellow {
+    background-color: rgb(254, 225, 31);
+    border-bottom-left-radius: 100%;
+}
+
+.green {
+    background-color: rgb(46, 211, 46);
+    border-top-left-radius: 100%;
+}
+
+.blue {
+    background-color: rgb(77, 141, 243);
+    border-bottom-right-radius: 100%;
+}
+
+.red {
+    background-color: rgb(244, 66, 66);
+    border-top-right-radius: 100%;
+}
+
+.button {
+    width: 150px;
+    height: 150px;
+    margin: 0.2rem;
+    transition: all .1s ease-in-out;
+    border: none;
+}
+
+.button:hover{
+    transform: scale(1.03) perspective(1px);
+}
+
+.bright {
+    background-color: #f5f5f5;
+    box-shadow: 0 0 5px #ffffff;
+}
+
+.pressed {
+    opacity: 50%;
+}
